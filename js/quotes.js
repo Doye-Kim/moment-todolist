@@ -1,35 +1,35 @@
 const quotes = [
 	{
-		quote: '1',
-		author: '-1',
+		quote: 'When you believe in a thing, believe in it all the way, implicitly and unquestionable.',
+		author: '- Walt Disney',
 	},
 	{
-		quote: '2',
-		author: '-2',
+		quote: 'Some people are worth melting for.',
+		author: '- Frozen(Olaf)',
 	},
 	{
-		quote: '3',
-		author: '-3',
+		quote: 'If you focus on what you left behind, you will never see what lies ahead.',
+		author: '- Ratatouille',
 	},
 	{
-		quote: '4',
-		author: '-4',
+		quote: 'You cannot be happy every day. But there are happy things every day.',
+		author: '- Winnie the Pooh',
 	},
 	{
-		quote: '5',
-		author: '-5',
+		quote: 'To love someone, you have to love yourself first.',
+		author: '- Beauty and the Beast',
 	},
 	{
-		quote: '6',
-		author: '-6',
+		quote: 'Share your gift with the world. Who knows how many lives you are saving just by doing so.',
+		author: '- Kung Fu Panda',
 	},
 	{
-		quote: '7',
-		author: '-7',
+		quote: 'Anyone can be anything.',
+		author: '- Zootopia',
 	},
 	{
-		quote: '8',
-		author: '-8',
+		quote: 'Don’t close your eyes. Look! The reality of fear can be different than you think.',
+		author: '- Finding Nemo',
 	},
 ];
 
