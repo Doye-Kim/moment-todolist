@@ -8,11 +8,10 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: auto;
+    height: 100%;
     width: 100%;
     z-index: -1;
 }
-
 #login-form{
     position: absolute;
     text-align:center;
@@ -51,16 +50,26 @@ body{
 #login-form input:focus {outline: none;}
 #login-form input::placeholder {
     color: rgb(255, 255, 255);
-  }
+}
 #clock{
     float:left;
+    font-size:50px;
 }
 #quote{
+    width: 1000px;
+    background-image: linear-gradient(to right, blue, rgb(204, 0, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
     text-align:center;
-}
-#todo-form{
+    position: absolute;
+    font-style:italic;
     text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #weather{
+    float: right;
     text-align:center;
 }

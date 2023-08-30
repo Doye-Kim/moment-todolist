@@ -25,7 +25,7 @@ else {
 
 function paintGreeting(username){
 	greeting.classList.remove(HIDDEN_CLASSNAME);
-	greeting.innerText = `Hello ${username}`;
+	greeting.innerText = `Hello, ${username}`;
 
 }
 

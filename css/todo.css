@@ -1,0 +1,21 @@
+#todo-form{
+    position: absolute;
+    text-align:center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#todo-list{
+    position: absolute;
+    text-align:center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#todo-list li button{
+    margin-left: 10px;
+    text-align:center;
+    font-size:xx-small;
+    border: none;
+    background: transparent;
+}
