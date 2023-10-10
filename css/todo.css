@@ -1,21 +1,82 @@
-#todo-form{
-    position: absolute;
-    text-align:center;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#todo {
+  position: absolute;
+  top: 37%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  background: url("../img/todoList.png") no-repeat;
+  background-size: 400px;
+  width: 400px;
+  height: 400px;
 }
-#todo-list{
-    position: absolute;
-    text-align:center;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#todo-form input {
+  margin-top: 50px;
+  margin-left: 80px;
+  padding-left: 20px;
+  padding-right: 50px;
+  border: none;
+  background: url("../img/todoInput.png") no-repeat;
+  height: 50px;
+  min-width: 230px;
+  font-family: "Dongle", sans-serif;
+  font-size: 20px;
+  background-size: 230px;
+  background-position: left;
 }
-#todo-list li button{
-    margin-left: 10px;
-    text-align:center;
-    font-size:xx-small;
-    border: none;
-    background: transparent;
+#todo-form input:focus {
+  outline: none;
 }
+#todo-form input ::placeholder {
+  font-family: "Dongle", sans-serif;
+}
+#todo-list {
+  margin-top: 3px;
+  margin-left: 60px;
+  list-style: none;
+  width: 300px;
+  max-height: 233px;
+  overflow-y: scroll;
+}
+#todo-list::-webkit-scrollbar {
+  display: none;
+}
+#todo-list li {
+  width: 200px;
+  margin-bottom: 5px;
+  /* white-space: normal;
+  line-height: 0.8;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; */
+}
+#todo-list li span {
+  font-family: "Dongle", sans-serif;
+  font-size: 20px;
+  max-width: 170px;
+  overflow-x: hidden;
+  white-space: normal;
+  line-height: 0.8;
+  margin-left: 5px;
+}
+#todo-list li button {
+  float: right;
+  border: none;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  background: url("../img/xmark-solid.svg") no-repeat;
+}
+/* input[id="cb1"] + label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #787878;
+  margin-right: 4px;
+  cursor: pointer;
+}
+input[id="cb1"]:checked + label {
+  background: url("../img/check-solid.svg") no-repeat;
+}
+input[id="cb1"] {
+  display: none;
+} */
