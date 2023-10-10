@@ -1,0 +1,24 @@
+#weather {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  font-family: "Bagel Fat One", cursive;
+  text-shadow: 2px 2px 2px rgb(76, 122, 145);
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+#weather :last-child {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+#icon {
+  width: 60px;
+  vertical-align: -70%;
+}
+#temp {
+  font-weight: bold;
+  font-size: x-large;
+}
