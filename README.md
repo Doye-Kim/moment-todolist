@@ -13,4 +13,4 @@
 * 투두리스트 글자 수는 최대 14자까지 지원합니다.
 * 투두리스트 개수엔 제한이 없고, 스크롤 하여 확인할 수 있습니다.
 
-.[moment-todolist](https://master--moment-todolist.netlify.app/)
+[moment-todolist](https://master--moment-todolist.netlify.app/)
