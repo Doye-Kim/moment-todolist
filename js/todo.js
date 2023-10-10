@@ -12,7 +12,6 @@ function saveToDos() {
 
 function deleteToDo(event) {
   const li = event.target.parentElement;
-  console.log(li.id);
   toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
   li.remove();
   saveToDos();
@@ -33,9 +32,7 @@ function paintToDo(newTodoObj) {
   toDoList.appendChild(li);
   checkBox.addEventListener("change", (event) => {
     const cancle = event.target.parentElement;
-    console.log("cancle", cancle);
     if (checkBox.checked) {
-      console.log("check");
       cancle.style.textDecorationLine = "line-through";
     } else {
       cancle.style.textDecorationLine = "";
@@ -61,11 +58,9 @@ function handleToDoSubmit() {
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
-console.log(savedToDos);
 
 if (savedToDos) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos;
-  console.log(parsedToDos);
   parsedToDos.forEach(paintToDo);
 }
