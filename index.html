@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Dongle:wght@300&family=Moirai+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/greeting.css" />
     <link rel="stylesheet" href="css/todo.css" />
+    <link rel="stylesheet" href="css/weather.css" />
     <title>Momentum</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <form class="hidden" id="login-form">
-        <input 
-            required maxlength="15" 
-            type="text" 
-            placeholder="What is your name?" 
-            onfocus="this.placeholder=''" 
-            onblur="this.placeholder='What is your name?'"
-            />
-        <input type="submit" value="Log In" />
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='What is your name?'"
+      />
+      <input type="submit" value="Log In" />
     </form>
-    <h2 id="clock"></h2>
+    <div id="datetime">
+      <h2 id="date"></h2>
+      <h2 id="clock"></h2>
+    </div>
     <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter"/>
-    </form>
-    <ul id="todo-list"></ul>
+    <div id="todo">
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          maxlength="14"
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
     <div id="quote">
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
     </div>
     <div id="weather">
-        <div></div>
-        <div></div>
+      <div>
+        <img id="icon" />
+        <span id="temp"></span>
+      </div>
+      <div></div>
     </div>
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
@@ -42,6 +61,5 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,75 +1,90 @@
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-body{
-    min-height:100vh;
+body {
+  min-height: 100vh;
 }
 .bgImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
-#login-form{
-    position: absolute;
-    text-align:center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#login-form {
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 14%;
+  transform: translate(-50%, -50%);
 }
-#login-form input:first-child{
-    text-align:center;
-    font-size:x-large;
-    font-weight:bold;
-    color:white;
-    width: 300px;
-    height: 50px;
-    border-top:none;
-    border-left:none;
-    border-right:none;
-    border-bottom-style: dashed;
-    border-color: bisque;
-    background:transparent;
+#login-form input:first-child {
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  width: 250px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style: dashed;
+  border-color: rgb(176, 213, 255);
+  background: transparent;
 }
-#login-form input:last-child{
-    margin-left: 20px;
-    text-align:center;
-    width: 100px;
-    font-size:large;
-    font-weight:bold;
-    height: 50px;
-    border-radius:20px;
-    color:dimgray;
-    border-top: none;
-    border-left: none;
-    border-color:dimgray;
-    background-color:bisque;
+#login-form input:last-child {
+  margin-left: 20px;
+  text-align: center;
+  width: 100px;
+  font-size: large;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-color: dimgray;
+  background-color: rgb(176, 213, 255);
 }
-#login-form input:focus {outline: none;}
+#login-form input:focus {
+  outline: none;
+}
 #login-form input::placeholder {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
-#clock{
-    float:left;
-    font-size:50px;
+#datetime {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-family: "Bagel Fat One", cursive;
+  text-shadow: 2px 2px 2px rgb(76, 122, 145);
+  font-weight: bold;
+  color: white;
+  transform: translate(-50%, -50%);
 }
-#quote{
-    width: 1000px;
-    background-image: linear-gradient(to right, blue, rgb(204, 0, 255));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color:transparent;
-    text-align:center;
-    position: absolute;
-    font-style:italic;
-    text-align:center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#clock {
+  margin: 0;
+  font-size: 60px;
 }
-#weather{
-    float: right;
-    text-align:center;
+#date {
+  margin: 0;
+  font-size: 25px;
+}
+#quote {
+  width: 100%;
+  background-image: linear-gradient(to right, #fc50da, #8bff85);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: -1.5px -1.5px 0 rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
