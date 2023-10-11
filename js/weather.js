@@ -1,9 +1,9 @@
-import config from "../config/apikey.js";
+const apiKey = config.apikey;
 
 function onGeoOK(position) {
   const lat = position.coords.latitude;
   const lng = position.coords.longitude;
-  const apiKey = config.apikey;
+
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${apiKey}&units=metric`;
   fetch(url)
     .then((response) => response.json())
