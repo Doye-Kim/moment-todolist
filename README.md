@@ -1,6 +1,5 @@
 # moment_todolist
-[moment-todolist](https://master--moment-todolist.netlify.app/)
-할 일 기록 서비스
+할 일 기록 서비스 [moment-todolist](https://master--moment-todolist.netlify.app/)
 
 ![image](https://github.com/Doye-Kim/todo-list/assets/126869993/11b3696b-0e68-4a7c-8fc6-85e6f8583a4c)
 
