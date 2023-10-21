@@ -68,7 +68,6 @@
   cursor: pointer;
   width: 1em;
   height: 1em;
-  min-height: 10px;
   background: url("../img/xmark-solid.svg") no-repeat;
   background-size: 90%;
 }
