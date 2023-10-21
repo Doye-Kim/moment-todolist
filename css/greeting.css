@@ -1,11 +1,11 @@
 #greeting {
+  margin: 0;
   position: absolute;
   text-align: center;
   text-shadow: 2px 2px 2px gray;
-  font-size: 60px;
+  font-size: 3rem;
   color: white;
   font-family: "Moirai One", cursive;
-  top: 2%;
-  left: 12%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 3%;
 }

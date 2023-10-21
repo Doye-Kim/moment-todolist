@@ -1,25 +1,33 @@
 #todo {
   position: absolute;
-  top: 37%;
-  left: 12%;
-  transform: translate(-50%, -50%);
+  top: 8%;
+  left: 0;
+  margin: 0;
   background: url("../img/todoList.png") no-repeat;
-  background-size: 400px;
-  width: 400px;
-  height: 400px;
+  background-size: 100%;
+  width: 40%;
+  height: 0;
+  min-width: 250px;
+  min-height: 250px;
+  padding-bottom: 40%;
+  overflow: hidden;
+}
+#todo-form {
+  margin: 0;
+  height: 11vh;
 }
 #todo-form input {
-  margin-top: 50px;
-  margin-left: 80px;
-  padding-left: 20px;
-  padding-right: 50px;
+  margin-top: 15%;
+  margin-left: 15%;
+  padding: 5%;
   border: none;
   background: url("../img/todoInput.png") no-repeat;
-  height: 50px;
-  min-width: 230px;
+  min-width: 100px;
+  min-height: 30px;
+  width: 60%;
   font-family: "Dongle", sans-serif;
-  font-size: 20px;
-  background-size: 230px;
+  font-size: 1.1rem;
+  background-size: 100%;
   background-position: left;
 }
 #todo-form input:focus {
@@ -29,24 +37,26 @@
   font-family: "Dongle", sans-serif;
 }
 #todo-list {
-  margin-top: 3px;
-  margin-left: 60px;
+  position: absolute;
+  top: 20%;
+  padding-left: 23%;
   list-style: none;
-  width: 300px;
-  max-height: 233px;
+  width: 60%;
+  max-height: 20vh;
+  min-height: 150px;
   overflow-y: scroll;
 }
 #todo-list::-webkit-scrollbar {
   display: none;
 }
 #todo-list li {
-  width: 200px;
+  width: 90%;
+  height: 22px;
   margin-bottom: 5px;
 }
 #todo-list li span {
   font-family: "Dongle", sans-serif;
-  font-size: 20px;
-  max-width: 170px;
+  font-size: 1rem;
   overflow-x: hidden;
   white-space: normal;
   line-height: 0.8;
@@ -56,7 +66,8 @@
   float: right;
   border: none;
   cursor: pointer;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   background: url("../img/xmark-solid.svg") no-repeat;
+  background-size: 100%;
 }
